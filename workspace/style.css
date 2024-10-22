@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+}
+
+input, button {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+}
+.app-logo {
+    width: 250px; 
+    height: auto;
+    display: block;
+    margin: 0 auto 1px; 
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#weatherDisplay {
+    text-align: center;
+    color: #fff;
+}
+
+#weatherIcon {
+    width: 80px;
+    height: 80px;
+}
