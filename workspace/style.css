@@ -1,12 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    background: url('images/sky.jpg') no-repeat center center fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
+
 
 .weather-container {
     background: rgba(255, 255, 255, 0.2);
